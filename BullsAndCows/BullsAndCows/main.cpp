@@ -38,12 +38,12 @@ void printIntro() {
 	constexpr int32 WORD_LENGTH = 9;
 	std::cout << "Welcome to Bulls and Cows, a fun word game." << std::endl;
 	std::cout << std::endl;
-	std::cout << "          }   {         ___ " << std::endl;
-	std::cout << "          (o o)        (o o) " << std::endl;
-	std::cout << "   /-------\\ /          \\ /-------\\ " << std::endl;
-	std::cout << "  / | BULL |O            O| COW  | \\ " << std::endl;
-	std::cout << " *  |-,--- |              |------|  * " << std::endl;
-	std::cout << "    ^      ^              ^      ^ " << std::endl;
+	std::cout << "              }   {         ___ " << std::endl;
+	std::cout << "              (o o)        (o o) " << std::endl;
+	std::cout << "   /----------\\ /          \\ /----------\\ " << std::endl;
+	std::cout << "  / | Gursagar |O            O| Dilpreet | \\ " << std::endl;
+	std::cout << " *  |-,------- |              |----------|  * " << std::endl;
+	std::cout << "    ^          ^              ^          ^ " << std::endl;
 
 	// START: Allowing user to select the word length
 	int32 SelectWordLength;
